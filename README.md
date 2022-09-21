@@ -16,7 +16,7 @@ import time
 from RequestsEx import *
 
 # make timing object for when the request will connect/fire (optional)
-myTiming = RequestTiming( # also optionally, params can be unset or None for normal/random times
+myTiming = RequestTiming(
   connectAt   = round(time.time()+3), 
   sendAt      = round(time.time()+5)
 )
