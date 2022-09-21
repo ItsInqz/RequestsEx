@@ -21,7 +21,7 @@ myTiming = RequestTiming(
   sendAt      = round(time.time()+5)
 )
 
-# make a new request object (view testing.py for all options)
+# make a new request object (view testing.py for all options, only method & url are required)
 newReq = eRequest('post', 'https://example.com', data={
   'myData': '123'
 }, timing=myTiming)
