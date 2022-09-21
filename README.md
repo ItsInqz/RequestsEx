@@ -12,10 +12,13 @@ HTTP request building, parsing, executing & timing all in one! Make a performant
 
 Behind the scenes the library will take the basic info you give & build a full HTTP payload.
 ```cs
+import time
+from RequestsEx import *
+
 # make timing object for when the request will connect/fire (optional)
 myTiming = RequestTiming( # also optionally, params can be unset or None for normal/random times
-  connectAt   = round(time.time()+3), # 3 seconds in the future 
-  sendAt      = round(time.time()+5) # 5 seconds in the future
+  connectAt   = round(time.time()+3), 
+  sendAt      = round(time.time()+5)
 )
 
 # make a new request object (view testing.py for all options)
