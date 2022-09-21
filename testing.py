@@ -1,7 +1,7 @@
 import time
 from RequestsEx import *
 
-# main/testing function
+# main/testing function <3
 def testing():
     # this file was made quickly & should show everything this library can do, if you have any questions feel free to contact!
 
