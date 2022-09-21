@@ -4,9 +4,9 @@ HTTP request building, parsing, executing & timing all in one! Make a performant
 
 ## Usage
 
-- Create a new Python file
-- Import the entire RequestsEx module
-- Use the testing.py & example below to build an easy request
+- Create a new Python file.
+- Import the entire RequestsEx module.
+- Use the testing.py & example below to build an easy request.
 
 ## Example
 
