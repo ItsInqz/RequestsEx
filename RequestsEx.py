@@ -1,4 +1,4 @@
-# import all needed libraries, no externals needed
+# import all needed libraries, no externals needed!
 import socket, ssl, json, time
 
 REQUEST_DEBUG_FORMAT = '<eRequest, payload bytes=[payload_here]>' # formatting for request debug print
