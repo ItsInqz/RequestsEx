@@ -37,3 +37,4 @@ print(newResp.text)
 
 - Proxy support using pysocks
 - Support for passing in your own socket objects
+- Better error handling/reporting
