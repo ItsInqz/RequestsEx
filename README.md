@@ -1,6 +1,6 @@
 # RequestsEx
 
-HTTP request building, parsing, executing & timing all in one! Make a performant HTTP request with 1 line of code.
+HTTP request building, parsing, executing & timing all in one! Make a performant HTTP requests with 1 line of code.
 
 ## Usage
 
