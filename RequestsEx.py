@@ -72,7 +72,8 @@ class eRequest:
             raise RequestPayloadError(f'Failed to create request payload, exception was: {ex}') # propagate any error thrown
 
         # if debug is set print out payload in attached terminal
-        if debug: print(f'\n{REQUEST_DEBUG_FORMAT.replace("[payload_here]", str(payload))}\n')
+        if debug:
+            print(f'\n{REQUEST_DEBUG_FORMAT.replace("[payload_here]", str(payload))}\n')
 
         # make a new normal socket & try to send the request/payload, respecting timings if set
         try:
