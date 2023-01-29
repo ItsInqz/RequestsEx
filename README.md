@@ -27,7 +27,7 @@ newReq = eRequest('post', 'https://example.com', data={
 }, timing=myTiming)
 
 # execute the request
-newResp = newRew.do()
+newResp = newReq.do()
 
 # output the response
 print(newResp.text)
